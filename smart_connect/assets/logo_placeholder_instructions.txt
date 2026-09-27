@@ -1,0 +1,20 @@
+SMART CONNECT LOGO INSTRUCTIONS
+
+To replace the Flutter default app icon with your Smart Connect logo:
+
+1. Place your Smart Connect logo image here as "logo.png"
+   - Recommended size: 1024x1024 pixels
+   - Format: PNG with transparent background preferred
+   - The logo should be square and centered
+
+2. After placing the logo, run these commands in the project root:
+   flutter pub get
+   dart run flutter_launcher_icons
+
+3. This will generate app icons for Android and iOS automatically
+
+4. Rebuild your app to see the new icon:
+   flutter clean
+   flutter run
+
+Note: The adaptive icon background color is set to #176b87 (Smart Connect brand color).
