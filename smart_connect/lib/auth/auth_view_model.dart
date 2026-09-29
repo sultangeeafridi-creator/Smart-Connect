@@ -34,7 +34,8 @@ class AuthViewModel extends ChangeNotifier {
     notifyListeners();
   }
 
-  void logout() {
+  Future<void> logout() async {
+    await _service.logout();
     user = null;
     errorMessage = null;
     notifyListeners();
